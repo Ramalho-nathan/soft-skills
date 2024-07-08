@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="../css/modal.css">
+<script src="https://kit.fontawesome.com/36b7b4eca8.js" crossorigin="anonymous"></script>
+
+<div class="modal" id="loginModal">
+
+    <div class="img-container">
+        <div class="circle"></div>
+        <img src="../assets/Authentication-rafiki.png" alt="">
+    </div>
+
+    <div class="sign">
+
+        <div class="header-login">
+            <h1>Bem-vindo</h1>
+            <i class="fa-solid fa-x close"></i>
+        </div>
+
+        <form action="logar" method="post">
+
+            <div class="input-group">
+                <input type="text" placeholder="Login" required>
+            </div>
+
+            <div class="input-group">
+                <input type="password" placeholder="Senha" required>
+            </div>
+
+            <div class="input-box">
+                <label for="text" name="salvarSenha">Deseja salvar sua senha?</label>
+                <input type="checkbox" name="salvarSenha" id="salve">
+                
+            </div>
+
+            <div class="btn-send">
+                <button type="submit">Entrar</button>
+            </div>
+
+        </form>
+
+        <div class="ask">
+            <p>Ainda não tem Cadastro? <span>Cadastre-se </span></p>
+        </div>
+    </div>
+
+</div>
+<script src="../js/modal.js"></script>
